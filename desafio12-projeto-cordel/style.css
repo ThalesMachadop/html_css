@@ -31,12 +31,36 @@ main {
     font-size: 3vw;
 }
 
-#primeiro_p {
-    margin: 50px 20px;
+#joaninha {
+    background: black url("imagens/background001.jpg") right center no-repeat fixed;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    color: white;
+    position: relative;
 }
 
-#segundo_p {
-    background: black url("imagens/background001.jpg") center no-repeat scroll;
+#primeiro_p, #terceiro_p, #quarto_p, #sexto_p, #setimo_p {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10vh 30px;
+}
+
+#terceiro_p {
+
+}
+
+#segundo_p, #quinto_p {
+    margin: 10vh 30px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.505);
+    width: 37%;
+}
+
+#texto {
+    background: black url("imagens/background002.jpg") center no-repeat fixed;
     background-size: cover;
-    color: white
+    height: auto;
+    width: auto;
+    color: white;
 }
